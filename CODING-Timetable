@@ -1,0 +1,30 @@
+package labtest17_1;
+import java.util.Scanner;
+public class Timetable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner in = new Scanner (System.in);
+
+ int size ;
+ int row;
+ int coloum;
+
+ System.out.print("Input size: ");
+ size = in.nextInt();
+
+ for (row=1 ; row<=size; row++) {
+	 for (coloum=1; coloum<=size; coloum++) {
+	 System.out.print(row*coloum + "\t");
+	 }
+	 System.out.println();
+		 
+		 
+		 
+	 }
+ }
+
+
+
+	}
+
